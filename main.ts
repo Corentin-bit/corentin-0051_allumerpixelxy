@@ -16,5 +16,6 @@ basic.forever(function () {
         led.plot(pixelX, pixelY)
         basic.pause(200)
         basic.clearScreen()
+        basic.showIcon(IconNames.Heart)
     }
 })
